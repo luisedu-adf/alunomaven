@@ -1,6 +1,6 @@
 ### Execução alunomaven
 
-assumindo que o presente pom.xml está ok e o futurepages.jar já adicionado ao repositório local do maven:
+assumindo que o presente pom.xml está ok e o futurepages.jar já adicionado ao repositório local do maven, e que hibernate.properties e app-params.xml também estão devidamente configurados:
 
 ```
 git clone https://github.com/luisedu-adf/alunomaven
