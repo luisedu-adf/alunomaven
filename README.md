@@ -82,6 +82,7 @@ src/
 *obs2: muitas pastas com o nome "install"*
 
 adicionou-se pom.xml com a configuração adequada
+
 *obs: precisa ajustar algumas dependências talvez*
 
 roda db num docker:
