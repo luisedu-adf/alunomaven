@@ -1,6 +1,8 @@
 ### Execução alunomaven
 
-assumindo que o presente pom.xml está ok e o futurepages.jar já adicionado ao repositório local do maven, e que hibernate.properties e app-params.xml também estão devidamente configurados:
+antes de executar:
+    futurepages.jar deve estar em repositório local ou remoto
+    arquivos de conf configurados e db mysql57 rodando ( ver notas abaixo )
 
 ```
 git clone https://github.com/luisedu-adf/alunomaven
