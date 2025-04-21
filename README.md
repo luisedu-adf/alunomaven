@@ -1,4 +1,5 @@
 assumindo que o presente pom.xml está ok e o futurepages.jar já adicionado ao repositório local do maven:
+
 *obs: futuramente futurepages.jar ou deve ser upado para um repositório remoto, ou o proprio futurepages será migrado para maven e adicionado na configuração do projeto como dependência*
 
 ```
@@ -75,6 +76,7 @@ src/
             └── tags
 ```
 *obs1: src/main/resource/install/ deve conter apenas as fotos, nada de .java*
+
 *obs2: muitas pastas com o nome "install"*
 
 adicionou-se pom.xml com a configuração adequada
