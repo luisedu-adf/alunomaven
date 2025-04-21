@@ -15,7 +15,7 @@ mvn cargo:run
 
 ### Notas sobre a migração e setup pra rodar
 
-layout inicial do alunoonline antes da migração:
+layout inicial do alunoonline:
 ```
 ├── src
 │   ├── conf
@@ -44,7 +44,7 @@ layout inicial do alunoonline antes da migração:
         └── tags
 ```
 
-depois da migração:  
+layout depois de adaptar para padrão Maven:  
 ```
 src/
 └── main
