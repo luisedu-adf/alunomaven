@@ -1,6 +1,8 @@
+### Execução alunomaven
+
 assumindo que o presente pom.xml está ok e o futurepages.jar já adicionado ao repositório local do maven:
 
-*obs: futuramente futurepages.jar ou deve ser upado para um repositório remoto, ou o proprio futurepages será migrado para maven e adicionado na configuração do projeto como dependência*
+*obs: futuramente futurepages.jar ou deve ser upado para um repositório remoto, ou o projeto futurepages deve ser migrado para maven e adicionado na configuração do projeto como um módulo dependência*
 
 ```
 git clone https://github.com/luisedu-adf/alunomaven
