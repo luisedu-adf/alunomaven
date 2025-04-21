@@ -1,7 +1,7 @@
 ### Execução alunomaven
 
 antes de executar:
-    futurepages.jar deve estar em repositório local ou remoto
+    futurepages.jar deve estar em repositório local ou remoto;
     arquivos de conf configurados e db mysql57 rodando ( ver notas abaixo )
 
 ```
