@@ -2,7 +2,7 @@ assumindo que o presente pom.xml está ok e o futurepages.jar já adicionado ao 
 *obs: futuramente futurepages.jar ou deve ser upado para um repositório remoto, ou o proprio futurepages será migrado para maven e adicionado na configuração do projeto como dependência*
 
 ```
-git clone https://github.com/futurepages/4-alunoonline
+git clone https://github.com/luisedu-adf/alunomaven
 ```
 
 ```
