@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1"
+        >	<display-name>Aluno On Line</display-name>
+
+        <!-- Tempo padrão da sessão http do usuário -->
+	<session-config>
+		<session-timeout>10</session-timeout>
+	</session-config>
+
+    <!-- Listeners -->
+    <listener>
+        <description>Futurepages4 Application Listener</description>
+        <listener-class>org.futurepages.menta.core.ApplicationListener</listener-class>
+    </listener>
+
+    <!-- Servlets -->
+    <servlet>
+        <servlet-name>Controller</servlet-name>
+        <servlet-class>org.futurepages.menta.core.control.Controller</servlet-class>
+        <init-param>
+            <param-name>applicationManager</param-name>
+            <param-value>org.futurepages.menta.core.ApplicationManager</param-value>
+        </init-param>
+    </servlet>
+
+    <!--De Template -->
+    <servlet>
+        <servlet-name>TemplateServlet</servlet-name>
+        <servlet-class>org.futurepages.menta.core.template.TemplateServlet</servlet-class>
+        <init-param>
+            <param-name>TemplateManager</param-name>
+            <param-value>org.futurepages.menta.core.template.TemplateManager</param-value>
+        </init-param>
+    </servlet>
+
+
+    <!-- Mapeamentos de actions -->
+	<servlet-mapping>
+		<servlet-name>Controller</servlet-name>
+		<url-pattern>/Index/</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Controller</servlet-name>
+		<url-pattern>/Index</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Controller</servlet-name>
+		<url-pattern>/escola/*</url-pattern>
+	</servlet-mapping>
+
+        <!-- Mapeamentos de templates -->
+	<servlet-mapping>
+		<servlet-name>TemplateServlet</servlet-name>
+		<url-pattern>*.page</url-pattern>
+	</servlet-mapping>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/exceptions/404.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/exceptions/500.jsp</location>
+	</error-page>
+
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>*.jsp</url-pattern>
+			<page-encoding>UTF-8</page-encoding>
+		</jsp-property-group>
+	</jsp-config>
+</web-app>
