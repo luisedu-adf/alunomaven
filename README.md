@@ -11,7 +11,7 @@ mvn clean package
 mvn cargo:run
 ```
 
-*obs: futuramente futurepages.jar ou deve ser upado para um repositório remoto, ou o projeto futurepages deve ser migrado para maven e adicionado na configuração do projeto como um módulo dependência*
+*obs: futuramente futurepages.jar ou deve ser upado para um repositório remoto, ou o projeto futurepages deve ser migrado para maven e adicionado na configuração do alunoonline (ou outros) como um módulo dependência*
 
 ### Notas sobre a migração e setup pra rodar
 
