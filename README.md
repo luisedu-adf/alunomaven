@@ -105,4 +105,4 @@ mvn clean package
 mvn cargo:run
 ```
 
-*obs: tá com um bug de formatação do texto (UTF-8 provavelmente por parte do db)
+*obs: tá com um bug de formatação do texto (UTF-8 provavelmente por parte do db)*
